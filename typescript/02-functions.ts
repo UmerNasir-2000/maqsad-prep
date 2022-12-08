@@ -1,5 +1,8 @@
-function addNumbers(a: number, b: number = 0): number {
-  return a + b;
+function addNumbers(...rest: number[]): number {
+  return rest.reduce((value, acc) => {
+    acc += value;
+    return acc;
+  }, 0);
 }
 
-console.log(addNumbers(1, 5));
+console.log(addNumbers(1, 5, 34));

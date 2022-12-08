@@ -20,3 +20,14 @@
 3. Custom React Hooks
 4. SOLID Principles in React
 5. React with Typescript
+
+## Tailwind CSS
+
+1. Setup
+2. Project
+
+## GraphQL
+
+1. Setup
+2. Main Concepts
+3. API
